@@ -1,0 +1,64 @@
+* {
+  font-family: "Kanit", sans-serif;
+}
+
+/* navbar */
+nav {
+  background-color: rgba(61, 60, 60, 0.075);
+}
+.navbar {
+  background-color: #434242;
+}
+.nav-item {
+  margin-right: 30px;
+}
+.nav-link {
+  color: #f3efe0;
+}
+.navbar-brand {
+  color: #f3efe0;
+}
+
+/* carosel */
+.carousel-item {
+  height: 91vh; /* sesuaikan tinggi carousel sesuai kebutuhan */
+}
+
+/* about */
+#about {
+  height: 100vh;
+  padding-top: 20vh;
+}
+p {
+  font-size: larger;
+}
+
+/* artwork */
+#artwork {
+  height: 100vh;
+  padding-top: 10vh;
+  background-color: #222222;
+}
+
+/* mobile mode */
+
+@media screen and (max-width: 767px) {
+  .carousel-item {
+    height: unset;
+  }
+  #about {
+    height: unset;
+    padding-top: 40px;
+  }
+  p {
+    font-size: small;
+  }
+  #artwork {
+    height: unset;
+    padding-top: 40px;
+    background-color: #222222;
+  }
+  .card {
+    margin: 0 auto 15px;
+  }
+}

@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Samtoksink v0.1</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous" />
+
+    <!-- mycss -->
+    <link rel="stylesheet" href="css/style-index.css" />
+    <!-- myfont -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Kanit&display=swap" rel="stylesheet" />
+    <!-- myscript -->
+  </head>
+  <body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg">
+      <div class="container">
+        <a class="navbar-brand" href="#">Samtoksink v0.1</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">about</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#artwork">Artwork</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- end navbar -->
+
+    <!-- home -->
+    <section id="home">
+      <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="img/back/1.jpg" class="d-block w-100" alt="satu" />
+          </div>
+          <div class="carousel-item">
+            <img src="img/back/2.jpg" class="d-block w-100" alt="dua" />
+          </div>
+          <div class="carousel-item">
+            <img src="img/back/3.jpg" class="d-block w-100" alt="tiga" />
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+    <!-- end home -->
+
+    <!-- about -->
+    <section id="about">
+      <div class="container text-center">
+        <div class="row mb-3">
+          <div class="col">
+            <h2>About</h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente velit quaerat officiis nisi molestias a consequatur. Praesentium voluptatum velit nam nihil quas, iusto a officiis saepe facere ex cum dolor eos debitis ipsa
+              repellat, eligendi maxime! Deleniti consequuntur iste animi est sed minus dolorem aperiam officiis tempore. Tempora, illum ratione.
+            </p>
+          </div>
+          <div class="col">
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Obcaecati quidem perferendis veritatis itaque? Dolor rem nihil ratione iure quasi, dolores quia, iusto tempora quisquam accusamus corporis nisi adipisci dolorum est
+              culpa beatae temporibus quae architecto nam laborum. Mollitia possimus eaque tenetur. Sint libero suscipit, natus quis ducimus doloremque? Minima, esse?
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end about -->
+
+    <!-- artwork -->
+    <section id="artwork">
+      <div class="container">
+        <div class="row text-center mb-5">
+          <div class="col">
+            <h2 style="color: aliceblue">artwork</h2>
+          </div>
+        </div>
+        <div class="row m-auto">
+          <div class="col">
+            <div class="card" style="width: 18rem">
+              <img src="img/artwork/1.jpg" class="card-img-top" alt="artwork1" />
+              <div class="card-body">
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card" style="width: 18rem">
+              <img src="img/artwork/2.jpg" class="card-img-top" alt="artwork2" />
+              <div class="card-body">
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card" style="width: 18rem">
+              <img src="img/artwork/3.jpg" class="card-img-top" alt="artwork3" />
+              <div class="card-body">
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end artwork -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+  </body>
+</html>
